@@ -1,6 +1,7 @@
 import streamlit as st
 import pickle
 import pandas as pd
+import sklearn
 
 def preprocess_input(input_data, scaler):
     # Define the expected feature names in the same order as they were during fitting
